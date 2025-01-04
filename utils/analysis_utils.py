@@ -121,10 +121,14 @@ def analyze_audio(file_path, title):
     plot_pitch(audio, sr, title)
 
 # the analysis on three audio files.
-if __name__ == "__main__":
+def main():
     # List of file paths and titles for the analysis
     file_paths = ['./audio/audio1.mp3', './audio/audio2.mp3', './audio/audio3.mp3']
     titles = ['Audio 1', 'Audio 2', 'Audio 3']
 
     for file_path, title in zip(file_paths, titles):
         analyze_audio(file_path, title)
+
+
+if __name__ == "__main__":
+    main()

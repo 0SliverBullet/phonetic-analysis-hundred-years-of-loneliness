@@ -30,7 +30,7 @@ def combine_audio_images(analysises):
             print(f"Error processing {analysis}: {e}")
 
 def main():
-    analysises = ['Waveform', 'Frequency_Spectrum', 'Spectrogram', 'MFCC', 'Pitch']
+    analysises = ['Waveform', 'Frequency_Spectrum', 'Spectrogram', 'MFCC', 'Pitch', 'Waveform_Segment1', 'Waveform_Segment2', 'Waveform_Segment3']
     combine_audio_images(analysises)
 
 if __name__ == "__main__":
